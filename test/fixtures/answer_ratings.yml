@@ -4,8 +4,37 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+whole_average_one:
+  interviewer: union
+  answer: first_driver_license
+  rating: 4
+
+whole_average_two:
+  interviewer: hr
+  answer: first_driver_license
+  rating: 2
+
+decimal_average_one:
+  interviewer: union
+  answer: first_driver_strength
+  rating: 3
+
+decimal_average_two:
+  interviewer: hr
+  answer: first_driver_strength
+  rating: 4
+
+ignore_zero_average_one:
+  interviewer: union
+  answer: first_driver_experience
+  rating: 3
+
+ignore_zero_average_two:
+  interviewer: hr
+  answer: first_driver_experience
+  rating: 0
+
+single_rating:
+  interviewer: hr
+  answer: first_driver_weakness
+  rating: 4

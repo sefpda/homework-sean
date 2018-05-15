@@ -4,8 +4,32 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+first_driver_license:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: license
+  response: "Slartibartfast made fjords"
+
+first_driver_strength:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: biggest_strength
+  response: "Surprise and fear"
+
+first_driver_experience:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: experience
+  response: "Master of none"
+
+first_driver_weakness:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: biggest_weakness
+  response: "My defenses are flawless"
+
+first_driver_mangerial_experience:
+  interview: first_driver_interview
+  candidate: barney_rubble
+  question: mangerial_experience
+  response: "What?"
